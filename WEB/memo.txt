@@ -1,0 +1,13 @@
+■環境構築
+　１・$ virtualenv env
+　　pip install virtualenv
+　2.virtualenv env　LS　を使って確認する
+　3.必要なライブラリのインストール
+    Flask : もちろん必須です。
+    Flask-SQLAlchemy : データベース操作に使います。
+    pip install flask flask-sqlalchemy
+4 仮想環境を有効化しましょう
+env\Scripts\activate
+
+■Hello Wordの表示
+STEP2 : Flaskを使って、Hello Worldを表示する
